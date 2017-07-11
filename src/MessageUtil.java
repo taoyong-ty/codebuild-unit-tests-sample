@@ -18,6 +18,6 @@ public class MessageUtil {
   }   
 
   public void setMessage(String newMessage) {
-    newMessage = this.message;
+    this.message = newMessage;
   }
 }  	
