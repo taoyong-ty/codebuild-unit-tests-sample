@@ -19,4 +19,14 @@ public class TestMessageUtil {
     message = "Hi!" + "Robert";
     assertEquals(message,messageUtil.salutationMessage());
   }
+
+
+  @Test
+  public void testSetMessage() {
+    System.out.println("Inside testSetMessage()");
+    String newMsg = "John";
+    messageUtil.setMessage(new String(newMsg));
+    assertEquals(newMsg, messageUtil.printMessage());
+  }
 }
+
