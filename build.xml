@@ -29,6 +29,7 @@
     <junit printsummary="yes" haltOnFailure="yes" haltOnError="yes">
       <classpath refid="classpath.test"/>
       <formatter type="brief" usefile="false"/>
+      <formatter type="xml"/>
       <test name="TestMessageUtil"/>
     </junit>
   </target>
