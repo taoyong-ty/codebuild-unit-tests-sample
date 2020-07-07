@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Downloading JUnit JAR file...
       - mkdir lib
-      - wget http://central.maven.org/maven2/junit/junit/4.10/junit-4.10.jar -O ./lib/junit-4.10.jar
+      - wget http://search.maven.org/maven2/junit/junit/4.10/junit-4.10.jar -O ./lib/junit-4.10.jar
   pre_build:
     commands:
       - echo Creating directories...
