@@ -1,1 +1,1 @@
-# codebuild-unit-tests-sample
+# codebuild-unit-tests-samples
