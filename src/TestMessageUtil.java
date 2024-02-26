@@ -17,7 +17,7 @@ public class TestMessageUtil {
   public void testSalutationMessage() {
     System.out.println("Inside testSalutationMessage()");
     message = "Hi!" + "Robert";
-    assertEquals(message,messageUtil.salutationMessage());
+    assertEquals("we are so super long message",messageUtil.salutationMessage());
   }
 
 
@@ -53,7 +53,8 @@ public class TestMessageUtil {
 
   @Test
   public void testPrintMessage2() {	
-    System.out.println("Inside testPrintMessage()");     
+    System.out.println("Inside testPrintMessage()");
+    throw new NullPointerException("return value is null at method AAA"); 
     assertEquals(message,messageUtil.printMessage());
   }
 
@@ -61,7 +62,7 @@ public class TestMessageUtil {
   public void testSalutationMessage2() {
     System.out.println("Inside testSalutationMessage()");
     message = "Hi!" + "Robert";
-    assertEquals(message,messageUtil.salutationMessage());
+    assertEquals("we are so super long message",messageUtil.salutationMessage());
   }
 
 
