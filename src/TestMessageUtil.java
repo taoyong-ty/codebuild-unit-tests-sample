@@ -54,8 +54,8 @@ public class TestMessageUtil {
   @Test
   public void testPrintMessage2() {	
     System.out.println("Inside testPrintMessage()");
-    throw new NullPointerException("return value is null at method AAA"); 
     assertEquals(message,messageUtil.printMessage());
+    throw new NullPointerException("return value is null at method AAA"); 
   }
 
   @Test
